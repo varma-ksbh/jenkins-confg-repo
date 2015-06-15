@@ -15,6 +15,9 @@
     <hudson.tasks.Shell>
       <command>echo &quot;test-01&quot;</command>
     </hudson.tasks.Shell>
+    <hudson.tasks.Shell>
+      <command>echo &quot;test-03&quot;</command>
+    </hudson.tasks.Shell>
   </builders>
   <publishers/>
   <buildWrappers/>
