@@ -21,6 +21,9 @@
     <hudson.tasks.Shell>
       <command>echo &quot;HI hello&quot;</command>
     </hudson.tasks.Shell>
+    <hudson.tasks.Shell>
+      <command>echo &quot;my bad&quot;</command>
+    </hudson.tasks.Shell>
   </builders>
   <publishers/>
   <buildWrappers/>
