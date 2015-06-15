@@ -49,8 +49,8 @@
           <permission>hudson.model.Run.Update</permission>
         </permissions>
         <assignedSIDs>
-          <sid>varma</sid>
           <sid>admin</sid>
+          <sid>varma</sid>
         </assignedSIDs>
       </role>
     </roleMap>
