@@ -117,13 +117,6 @@
   <quietPeriod>5</quietPeriod>
   <scmCheckoutRetryCount>1</scmCheckoutRetryCount>
   <views>
-    <hudson.model.AllView>
-      <owner class="hudson" reference="../../.."/>
-      <name>All</name>
-      <filterExecutors>false</filterExecutors>
-      <filterQueue>false</filterQueue>
-      <properties class="hudson.model.View$PropertyList"/>
-    </hudson.model.AllView>
     <hudson.model.MyView>
       <owner class="hudson" reference="../../.."/>
       <name>my_view</name>
