@@ -49,8 +49,8 @@
           <permission>hudson.model.Run.Update</permission>
         </permissions>
         <assignedSIDs>
-          <sid>admin</sid>
           <sid>varma</sid>
+          <sid>admin</sid>
         </assignedSIDs>
       </role>
     </roleMap>
@@ -124,6 +124,13 @@
       <filterQueue>false</filterQueue>
       <properties class="hudson.model.View$PropertyList"/>
     </hudson.model.AllView>
+    <hudson.model.MyView>
+      <owner class="hudson" reference="../../.."/>
+      <name>my_view</name>
+      <filterExecutors>false</filterExecutors>
+      <filterQueue>false</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+    </hudson.model.MyView>
   </views>
   <primaryView>All</primaryView>
   <slaveAgentPort>0</slaveAgentPort>
