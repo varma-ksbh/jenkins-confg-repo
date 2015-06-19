@@ -130,14 +130,20 @@
       <filterExecutors>false</filterExecutors>
       <filterQueue>false</filterQueue>
       <properties class="hudson.model.View$PropertyList"/>
+      <gridBuilder class="au.com.centrumsystems.hudson.plugin.buildpipeline.DownstreamProjectGridBuilder">
+        <firstJob>ADMIN-JOB-1</firstJob>
+      </gridBuilder>
+      <noOfDisplayedBuilds>5</noOfDisplayedBuilds>
+      <buildViewTitle>pipeline-01</buildViewTitle>
       <consoleOutputLinkStyle>Lightbox</consoleOutputLinkStyle>
-      <triggerOnlyLatestJob>false</triggerOnlyLatestJob>
-      <alwaysAllowManualTrigger>false</alwaysAllowManualTrigger>
-      <showPipelineParameters>false</showPipelineParameters>
-      <showPipelineParametersInHeaders>false</showPipelineParametersInHeaders>
+      <cssUrl></cssUrl>
+      <triggerOnlyLatestJob>true</triggerOnlyLatestJob>
+      <alwaysAllowManualTrigger>true</alwaysAllowManualTrigger>
+      <showPipelineParameters>true</showPipelineParameters>
+      <showPipelineParametersInHeaders>true</showPipelineParametersInHeaders>
       <startsWithParameters>false</startsWithParameters>
       <refreshFrequency>3</refreshFrequency>
-      <showPipelineDefinitionHeader>false</showPipelineDefinitionHeader>
+      <showPipelineDefinitionHeader>true</showPipelineDefinitionHeader>
     </au.com.centrumsystems.hudson.plugin.buildpipeline.BuildPipelineView>
   </views>
   <primaryView>my_view</primaryView>
