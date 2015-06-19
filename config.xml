@@ -132,7 +132,7 @@
       <properties class="hudson.model.View$PropertyList"/>
     </hudson.model.MyView>
   </views>
-  <primaryView>All</primaryView>
+  <primaryView>my_view</primaryView>
   <slaveAgentPort>0</slaveAgentPort>
   <label></label>
   <nodeProperties/>
