@@ -132,6 +132,7 @@
       <properties class="hudson.model.View$PropertyList"/>
       <gridBuilder class="au.com.centrumsystems.hudson.plugin.buildpipeline.DownstreamProjectGridBuilder">
         <firstJob>ADMIN-JOB-1</firstJob>
+        <firstJobLink>job/ADMIN-JOB-1/</firstJobLink>
       </gridBuilder>
       <noOfDisplayedBuilds>5</noOfDisplayedBuilds>
       <buildViewTitle>pipeline-01</buildViewTitle>
@@ -146,7 +147,7 @@
       <showPipelineDefinitionHeader>true</showPipelineDefinitionHeader>
     </au.com.centrumsystems.hudson.plugin.buildpipeline.BuildPipelineView>
   </views>
-  <primaryView>my_view</primaryView>
+  <primaryView>Pipeline-01</primaryView>
   <slaveAgentPort>0</slaveAgentPort>
   <label></label>
   <nodeProperties/>
