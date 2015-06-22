@@ -49,8 +49,8 @@
           <permission>hudson.model.Run.Update</permission>
         </permissions>
         <assignedSIDs>
-          <sid>admin</sid>
           <sid>varma</sid>
+          <sid>admin</sid>
         </assignedSIDs>
       </role>
     </roleMap>
@@ -146,6 +146,13 @@
       <refreshFrequency>3</refreshFrequency>
       <showPipelineDefinitionHeader>true</showPipelineDefinitionHeader>
     </au.com.centrumsystems.hudson.plugin.buildpipeline.BuildPipelineView>
+    <hudson.model.AllView>
+      <owner class="hudson" reference="../../.."/>
+      <name>All</name>
+      <filterExecutors>false</filterExecutors>
+      <filterQueue>false</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+    </hudson.model.AllView>
   </views>
   <primaryView>my_view</primaryView>
   <slaveAgentPort>0</slaveAgentPort>
