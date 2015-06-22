@@ -35,6 +35,13 @@
           <refreshFrequency>3</refreshFrequency>
           <showPipelineDefinitionHeader>false</showPipelineDefinitionHeader>
         </au.com.centrumsystems.hudson.plugin.buildpipeline.BuildPipelineView>
+        <hudson.model.ProxyView>
+          <owner class="hudson.model.MyViewsProperty" reference="../../.."/>
+          <name>Test-View</name>
+          <filterExecutors>false</filterExecutors>
+          <filterQueue>false</filterQueue>
+          <properties class="hudson.model.View$PropertyList"/>
+        </hudson.model.ProxyView>
       </views>
     </hudson.model.MyViewsProperty>
     <hudson.search.UserSearchProperty>
