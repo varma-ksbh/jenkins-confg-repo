@@ -117,13 +117,6 @@
   <quietPeriod>5</quietPeriod>
   <scmCheckoutRetryCount>1</scmCheckoutRetryCount>
   <views>
-    <hudson.model.MyView>
-      <owner class="hudson" reference="../../.."/>
-      <name>my_view</name>
-      <filterExecutors>false</filterExecutors>
-      <filterQueue>false</filterQueue>
-      <properties class="hudson.model.View$PropertyList"/>
-    </hudson.model.MyView>
     <au.com.centrumsystems.hudson.plugin.buildpipeline.BuildPipelineView plugin="build-pipeline-plugin@1.4.7">
       <owner class="hudson" reference="../../.."/>
       <name>Pipeline-01</name>
@@ -132,7 +125,7 @@
       <properties class="hudson.model.View$PropertyList"/>
       <gridBuilder class="au.com.centrumsystems.hudson.plugin.buildpipeline.DownstreamProjectGridBuilder">
         <firstJob>ADMIN-JOB-1</firstJob>
-        <firstJobLink>job/ADMIN-JOB-1/</firstJobLink>
+        <firstJobLink>view/my_view/job/ADMIN-JOB-1/</firstJobLink>
       </gridBuilder>
       <noOfDisplayedBuilds>5</noOfDisplayedBuilds>
       <buildViewTitle>pipeline-01</buildViewTitle>
