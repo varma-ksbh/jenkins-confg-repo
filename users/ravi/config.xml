@@ -32,7 +32,7 @@
       <emailAddress>ravi@gmail.com</emailAddress>
     </hudson.tasks.Mailer_-UserProperty>
     <hudson.model.MyViewsProperty>
-      <primaryViewName></primaryViewName>
+      <primaryViewName>VIEW-PIPELINE-01</primaryViewName>
       <views>
         <hudson.model.AllView>
           <owner class="hudson.model.MyViewsProperty" reference="../../.."/>
