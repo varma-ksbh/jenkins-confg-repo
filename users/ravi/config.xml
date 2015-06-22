@@ -26,6 +26,7 @@
           <filterExecutors>false</filterExecutors>
           <filterQueue>false</filterQueue>
           <properties class="hudson.model.View$PropertyList"/>
+          <proxiedViewName>Pipeline-01</proxiedViewName>
         </hudson.model.ProxyView>
       </views>
     </hudson.model.MyViewsProperty>
