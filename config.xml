@@ -51,6 +51,7 @@
         <assignedSIDs>
           <sid>varma</sid>
           <sid>admin</sid>
+          <sid>ravi</sid>
         </assignedSIDs>
       </role>
     </roleMap>
@@ -125,7 +126,7 @@
       <properties class="hudson.model.View$PropertyList"/>
       <gridBuilder class="au.com.centrumsystems.hudson.plugin.buildpipeline.DownstreamProjectGridBuilder">
         <firstJob>ADMIN-JOB-1</firstJob>
-        <firstJobLink>view/my_view/job/ADMIN-JOB-1/</firstJobLink>
+        <firstJobLink>job/ADMIN-JOB-1/</firstJobLink>
       </gridBuilder>
       <noOfDisplayedBuilds>5</noOfDisplayedBuilds>
       <buildViewTitle>pipeline-01</buildViewTitle>
