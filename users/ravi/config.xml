@@ -41,6 +41,13 @@
           <filterQueue>false</filterQueue>
           <properties class="hudson.model.View$PropertyList"/>
         </hudson.model.AllView>
+        <hudson.model.ProxyView>
+          <owner class="hudson.model.MyViewsProperty" reference="../../.."/>
+          <name>VIEW-PIPELINE-01</name>
+          <filterExecutors>false</filterExecutors>
+          <filterQueue>false</filterQueue>
+          <properties class="hudson.model.View$PropertyList"/>
+        </hudson.model.ProxyView>
       </views>
     </hudson.model.MyViewsProperty>
     <org.jenkinsci.main.modules.cli.auth.ssh.UserPropertyImpl>
