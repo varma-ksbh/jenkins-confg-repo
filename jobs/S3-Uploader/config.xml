@@ -1,15 +1,23 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <project>
+  <actions/>
+  <description></description>
   <keepDependencies>false</keepDependencies>
   <properties/>
   <scm class="hudson.scm.NullSCM"/>
-  <canRoam>false</canRoam>
+  <canRoam>true</canRoam>
   <disabled>false</disabled>
   <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
   <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
   <triggers/>
   <concurrentBuild>false</concurrentBuild>
-  <builders/>
+  <builders>
+    <hudson.plugins.s3.S3CopyArtifact plugin="s3@0.7">
+      <projectName>Git-Download</projectName>
+      <filter>*</filter>
+      <target></target>
+    </hudson.plugins.s3.S3CopyArtifact>
+  </builders>
   <publishers/>
   <buildWrappers/>
 </project>
