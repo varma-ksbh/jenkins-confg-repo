@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <hudson.plugins.git.GitSCM_-DescriptorImpl plugin="git@2.3.5">
-  <generation>18</generation>
+  <generation>20</generation>
   <globalConfigName>varma-ksbh</globalConfigName>
   <globalConfigEmail>varma.ksbh7@gmail.com</globalConfigEmail>
   <createAccountBasedOnEmail>false</createAccountBasedOnEmail>
