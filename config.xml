@@ -118,28 +118,6 @@
   <quietPeriod>5</quietPeriod>
   <scmCheckoutRetryCount>1</scmCheckoutRetryCount>
   <views>
-    <au.com.centrumsystems.hudson.plugin.buildpipeline.BuildPipelineView plugin="build-pipeline-plugin@1.4.7">
-      <owner class="hudson" reference="../../.."/>
-      <name>Pipeline-01</name>
-      <filterExecutors>false</filterExecutors>
-      <filterQueue>false</filterQueue>
-      <properties class="hudson.model.View$PropertyList"/>
-      <gridBuilder class="au.com.centrumsystems.hudson.plugin.buildpipeline.DownstreamProjectGridBuilder">
-        <firstJob>ADMIN-JOB-1</firstJob>
-        <firstJobLink>job/ADMIN-JOB-1/</firstJobLink>
-      </gridBuilder>
-      <noOfDisplayedBuilds>5</noOfDisplayedBuilds>
-      <buildViewTitle>pipeline-01</buildViewTitle>
-      <consoleOutputLinkStyle>Lightbox</consoleOutputLinkStyle>
-      <cssUrl></cssUrl>
-      <triggerOnlyLatestJob>true</triggerOnlyLatestJob>
-      <alwaysAllowManualTrigger>true</alwaysAllowManualTrigger>
-      <showPipelineParameters>true</showPipelineParameters>
-      <showPipelineParametersInHeaders>true</showPipelineParametersInHeaders>
-      <startsWithParameters>false</startsWithParameters>
-      <refreshFrequency>3</refreshFrequency>
-      <showPipelineDefinitionHeader>true</showPipelineDefinitionHeader>
-    </au.com.centrumsystems.hudson.plugin.buildpipeline.BuildPipelineView>
     <hudson.model.AllView>
       <owner class="hudson" reference="../../.."/>
       <name>All</name>
