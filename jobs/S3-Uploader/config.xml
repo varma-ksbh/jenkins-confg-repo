@@ -15,7 +15,7 @@
     <hudson.plugins.s3.S3CopyArtifact plugin="s3@0.7">
       <projectName>Git-Download</projectName>
       <filter>*</filter>
-      <target></target>
+      <target>https://s3-ap-northeast-1.amazonaws.com/code-images/</target>
     </hudson.plugins.s3.S3CopyArtifact>
   </builders>
   <publishers/>
