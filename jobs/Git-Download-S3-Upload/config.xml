@@ -33,7 +33,7 @@
       <entries>
         <hudson.plugins.s3.Entry>
           <bucket>code-images</bucket>
-          <sourceFile>&lt;fileset dir=&quot;${dir}&quot;&gt;    &lt;include name=&quot;*&quot;/&gt;    &lt;exclude name=&quot;**/*tar.gz&quot;/&gt;  &lt;/fileset&gt; </sourceFile>
+          <sourceFile>&lt;fileset dir=&quot;workspace&quot;&gt;    &lt;include name=&quot;*&quot;/&gt;    &lt;exclude name=&quot;**/*tar.gz&quot;/&gt;  &lt;/fileset&gt; </sourceFile>
           <storageClass>STANDARD</storageClass>
           <selectedRegion>ap-northeast-1</selectedRegion>
           <noUploadOnFailure>true</noUploadOnFailure>
