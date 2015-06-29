@@ -33,7 +33,18 @@
       <entries>
         <hudson.plugins.s3.Entry>
           <bucket>code-images</bucket>
-          <sourceFile>&lt;fileset dir=&quot;${WORKSPACE}&quot;&gt;    &lt;include name=&quot;**&quot;/&gt;    &lt;exclude name=&quot;**/*tar.gz&quot;/&gt;  &lt;/fileset&gt; </sourceFile>
+          <sourceFile>**/codetantra/*</sourceFile>
+          <storageClass>STANDARD</storageClass>
+          <selectedRegion>ap-northeast-1</selectedRegion>
+          <noUploadOnFailure>true</noUploadOnFailure>
+          <uploadFromSlave>false</uploadFromSlave>
+          <managedArtifacts>false</managedArtifacts>
+          <useServerSideEncryption>false</useServerSideEncryption>
+          <flatten>false</flatten>
+        </hudson.plugins.s3.Entry>
+        <hudson.plugins.s3.Entry>
+          <bucket>code-images</bucket>
+          <sourceFile>**/printtantra/*</sourceFile>
           <storageClass>STANDARD</storageClass>
           <selectedRegion>ap-northeast-1</selectedRegion>
           <noUploadOnFailure>true</noUploadOnFailure>
