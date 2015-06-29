@@ -2,9 +2,9 @@
 <hudson.plugins.s3.S3BucketPublisher_-DescriptorImpl plugin="s3@0.7">
   <profiles>
     <hudson.plugins.s3.S3Profile>
-      <name>S3-User</name>
-      <accessKey>AKIAJIG43RXBZXDTWF4Q</accessKey>
-      <secretKey>ZT4kaU244STqxLTNtSw7HV4sgIungL9oMOoGgKCZI7SO8+AfFV7Ehug7iLmx/Gt4UMyxeL6yizkDRLAdrJjS3Q==</secretKey>
+      <name>S3User</name>
+      <accessKey>AKIAIB3SNIK5JGRNDVDQ</accessKey>
+      <secretKey>9j/Vjpghgm6XTWNI7Iv3YDkS1MYbKE2r2DYfAGiHBYUXHhDV1SuG/dNlF3VQ5s12UMyxeL6yizkDRLAdrJjS3Q==</secretKey>
       <proxyHost></proxyHost>
       <proxyPort></proxyPort>
       <useRole>false</useRole>
