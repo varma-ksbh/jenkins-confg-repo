@@ -49,8 +49,8 @@
           <permission>hudson.model.Run.Update</permission>
         </permissions>
         <assignedSIDs>
-          <sid>varma</sid>
           <sid>admin</sid>
+          <sid>varma</sid>
           <sid>ravi</sid>
         </assignedSIDs>
       </role>
@@ -116,7 +116,7 @@
   <myViewsTabBar class="hudson.views.DefaultMyViewsTabBar"/>
   <clouds/>
   <quietPeriod>5</quietPeriod>
-  <scmCheckoutRetryCount>1</scmCheckoutRetryCount>
+  <scmCheckoutRetryCount>3</scmCheckoutRetryCount>
   <views>
     <hudson.model.AllView>
       <owner class="hudson" reference="../../.."/>
