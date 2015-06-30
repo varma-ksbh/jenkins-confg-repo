@@ -13,10 +13,7 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>echo &quot;Its working&quot;</command>
-    </hudson.tasks.Shell>
-    <hudson.tasks.Shell>
-      <command>echo &quot;:(&quot;</command>
+      <command>echo &quot;PLsss work&quot;</command>
     </hudson.tasks.Shell>
   </builders>
   <publishers/>
