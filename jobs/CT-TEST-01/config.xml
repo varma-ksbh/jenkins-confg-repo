@@ -13,7 +13,8 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>echo &quot;Hello&quot;</command>
+      <command>echo &quot;Hello&quot;
+echo &quot;Bye&quot;</command>
     </hudson.tasks.Shell>
   </builders>
   <publishers/>
